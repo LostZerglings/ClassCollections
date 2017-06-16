@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Alice_Stand_Alone.Class_Storage
+namespace Program
 {
     /// <summary>
     /// 
@@ -62,7 +60,6 @@ namespace Alice_Stand_Alone.Class_Storage
             //
             // You can than parse through the content as needed. 
              
-
             using (HttpClient client = new HttpClient())
             {
                 // Now that we have a client we need to convert our username and password to a byteArray to allow us to send it in the header
@@ -70,7 +67,6 @@ namespace Alice_Stand_Alone.Class_Storage
                 // Once we have created the array add it to the authentication portion of the headers as shown below. Ensure to speciy we are using "Basic" authentication. 
                 //
                 // Note: If your instance of Service-Now does not use basic authentication or requires no authentication you would have to modify these lines as needed.
-
 
                 var byteArray = Encoding.ASCII.GetBytes($"{serviceNowUsername}:{serviceNowPassword}");
                 client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", Convert.ToBase64String(byteArray));

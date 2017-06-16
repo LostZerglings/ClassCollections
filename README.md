@@ -10,6 +10,7 @@ DIR<br />
 <br />
   Some Fun With Windows:<br />
   StartApplicationAtStartup.cs regedit to change the startup behavior to load the application when windows starts. <br />
+  PowershellGetADUser.cs runs a powershell script in our c# code to retrive user information. <br />
 <br />
   Rest API:<br />
     PostToServiceNow.cs - Shows how to create a service-now incident using the REST API and an http message. <br />

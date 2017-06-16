@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Alice_Stand_Alone.Class_Storage
+namespace Program
 {
     class GetTextBetweenWords
     {
@@ -16,7 +12,6 @@ namespace Alice_Stand_Alone.Class_Storage
 
             if (source.Contains(startingWord) && source.Contains(endingWord))
             {
-
                 // In order to get the text between the two values we need to get the index of each word.
                 //
                 // IndexOf will get us the value, we just need to supply it with where to look.
@@ -40,7 +35,5 @@ namespace Alice_Stand_Alone.Class_Storage
                 return string.Empty;
             }
         }
-
-
     }
 }

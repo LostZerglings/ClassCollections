@@ -12,3 +12,8 @@ GetTextBetweenWords.cs
 
 Summary:
 A simple text class that allows you to select the text between two words in a string.
+
+PostToServiceNow.cs
+
+Summary:
+Shows an example of how you can create a service-now incident using http messages to post to the REST API

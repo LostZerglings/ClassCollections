@@ -2,6 +2,18 @@
 
 namespace Program
 {
+    /// <summary>
+    /// 
+    /// Description: 
+    /// A simple text class that allows you to select the text between two words in a string.
+    ///
+    /// Usage: 
+    /// string result = GetTextBetweenWords.textbetween("Hello strange world", "Hello", "world"); 
+    /// result now contains the word "strange"
+    /// 
+    /// </summary>
+
+    
     class GetTextBetweenWords
     {
         public static string textbetween(string source, string startingWord, string endingWord)

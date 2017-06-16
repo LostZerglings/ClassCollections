@@ -15,6 +15,8 @@ namespace Program
     /// To install this dll in visual studio go to Project > Manage nu get packages then type System.Management.Automation.dll in the search. 
     /// Once you have installed it don't forget to add using System.Management.Automation; to your project. 
     /// 
+    /// Additionally the device you run this on needs to be connected to a Active directory database or have RSAT installed to allow you to connect to a remote one.
+    ///
     /// It also may be advantageous to convery the method to an async method since retriving information can take time depending 
     /// on how much data you are retriving and where you are getting it from.
     /// 

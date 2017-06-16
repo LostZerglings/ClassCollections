@@ -9,7 +9,7 @@ DIR<br />
     GetTextBetweenWords.cs - simple string editior to select text between two words.<br />
 <br />
   Some Fun With Windows:<br />
-  StartApplicationAtStartup.cs Class to add a registry key to change the startup behavior to load the application when windows starts. <br />
+  StartApplicationAtStartup.cs regedit to change the startup behavior to load the application when windows starts. <br />
 <br />
   Rest API:<br />
     PostToServiceNow.cs - Shows how to create a service-now incident using the REST API and an http message. <br />

@@ -3,6 +3,19 @@ using System.IO;
 
 namespace Program
 {
+    /// <summary>
+    /// 
+    /// Description: 
+    /// A simple logging class that receives the log as a string, appends the user who logged it and the date and time it occurred, then writes it to a file.
+    ///
+    /// Usage:
+    /// First you will need to add a file path to the code below. Once it's been added you can call the class by adding the following to your code:
+    /// Log.writelog("log text goes here");
+    /// 
+    /// The result will be that a log containing your username + the log text + the date and time will be written to the file you specified.
+    ///
+    /// </summary>
+    
     public class Log
     {
         public static void writelog(string text)
